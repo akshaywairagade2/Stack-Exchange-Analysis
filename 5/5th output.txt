@@ -1,0 +1,3 @@
+('The correlation coefficient of the reputation of the user in Users.xml to the total answers given by the user in PostsHistory.xml file is ', 0.7387292708516392)
+9.5592019558 seconds
+

@@ -1,0 +1,38 @@
+Mapper:-
+Here we have to input 2 files.
+i)Taking the input of users.xml:-
+We take the repupattern for reputation and userpattern for getting the row Id
+of the user which is "User Id" of the user.
+After getting all this we make a dictionary called distri in which key is the row
+Id or user Id and the value is a list of two elements.First contains the repuatation.
+And the second contains the number of answers answered by the user in posthistory.xml
+file which is initially set to zero.
+
+ii)Taking input of posthistory.xml file:-
+We have used here userpatternT and userpatternC for getting proper userids
+because some rows have Text as next field and some have Comment as next Field
+To get properly the userid we combine these 2 patterns in order to get the proper
+userid.
+Posthistorytypeid if its values is 2 it means the users post is an answer.So
+we have a dict containing that userid as values and as we can find the key in 
+O(1) time in dict it will save a lot of time too.Now we will update the value of 
+key i.e. the second element of list by incrementing it to +1.Thus increasing 
+the count of answers posted.
+After all mapping is done we output only the repuatation and total answers of the user
+as we have to find coefficient with this 2 only.
+And we output that in list format for our simplicity
+
+Reducer:-
+Now we set x as summation of total reputation.
+y as summation of total answers.
+xy as summation of reputation_of_user*total_answers_by_user
+x2 as summation of squares of total reputation.
+y2 as summation of squares of total answers.
+c is increased in each input which indicates total number of key value pairs.
+After finding all the data, we calculate correlation coefficient by the formula used.
+
+Wrapper:-
+using wrapper calculates all our data and gives the result.
+
+Result:-
+The final result is Correlation coefficient which is 0.73

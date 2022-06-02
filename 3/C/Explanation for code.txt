@@ -1,0 +1,18 @@
+Mapper:-
+In this we are outputting the hour as a key and 1 as its value.Hour is find here
+using regular expression library in python.
+And the we print the key value pair in the list form for our simplicity.
+
+Reducer:-
+We are taking input as line and converting into line using eval function.
+As the hours are already in sorted order,we have got the output just by comparing
+current hour with previous and just increasing the count by 1 and printing 
+hour,count if the hour changes.
+We have appended the hours to list because we know hours can't be very large 
+that it may lead to overflow so sorted directly and printed the peak count to
+least count.
+We have not considered the hours with no comments.
+
+Wrapper:-
+We can directly run the wrapper to get the output and time required in calculation.
+

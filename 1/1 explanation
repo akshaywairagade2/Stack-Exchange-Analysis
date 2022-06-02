@@ -1,0 +1,4 @@
+There are 8 .xml files conataining in the folder.
+We have taken out the fields inside of that xml files and sorted them and the fields which comes the most are prioritized.
+The field which is present in each xml file is the rowID.
+Some files conatins large number of fields while some contains less fields.

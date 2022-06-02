@@ -1,0 +1,15 @@
+Mapper:-
+We are getting the month and the comment by using the regular expression library
+in python.Our key is month and value is the length of median which we find using 
+len() function in python.
+We converted it in list format and added the year in last for our simplicity.
+
+Reducer:-
+As the months are all in sorted order we store the lengths of comment in list.
+As the month changes we sort the list find the median and print it in given format.
+Proper implication can be found in code.
+
+Wrapper:-
+We can directly run the wrapper to get the output and time required in calculation.
+
+In final result we get the median of comment's length of each month.

@@ -1,0 +1,40 @@
+The following were top 10 posts:-
+
+('The row index', '11928', 'with', 323031, 'views is the', 1, 'most viewed post')
+('The row index', '893', 'with', 308776, 'views is the', 2, 'most viewed post')
+('The row index', '13490', 'with', 302370, 'views is the', 3, 'most viewed post')
+('The row index', '12321', 'with', 297010, 'views is the', 4, 'most viewed post')
+('The row index', '33053', 'with', 281109, 'views is the', 5, 'most viewed post')
+('The row index', '15989', 'with', 254549, 'views is the', 6, 'most viewed post')
+('The row index', '20199', 'with', 253123, 'views is the', 7, 'most viewed post')
+('The row index', '22', 'with', 247600, 'views is the', 8, 'most viewed post')
+('The row index', '14899', 'with', 240803, 'views is the', 9, 'most viewed post')
+('The row index', '6107', 'with', 239698, 'views is the', 10, 'most viewed post')
+
+Summary:-
+1.)The 1st post was <row Id="11928" PostTypeId="1" AcceptedAnswerId="11933" 
+CreationDate="2016-05-26T04:13:04.033" Score="81" ViewCount="323031"
+ Body="&lt;p&gt;I got ValueError when ....
+It is regarding some valueerror which user got when predicting test data using
+ a RandomForest model
+
+2.)The 2nd post was <row Id="893" PostTypeId="1" CreationDate="2014-08-03T13:07:24.143" 
+Score="112" ViewCount="308776" Body="&lt;p&gt;I am building a...
+It was created when user was creating regression model and he needed to calculate 
+something to check for correlations.
+
+3.)The 3rd post was  <row Id="13490" PostTypeId="1" AcceptedAnswerId="13496" CreationDate="2016-08-17T09:35:45.110" 
+Score="225" ViewCount="302370" Body="&lt;p&gt;I know that...
+It was created when user was experimenting with parameter dictionary of Keras.
+
+4.)The 4th post   <row Id="12321" PostTypeId="1" AcceptedAnswerId="12346" CreationDate="2016-06-21T10:05:08.587" Score="219" 
+ViewCount="297010" Body="&lt;p&gt;I do not...
+It was created when user was trying to point out difference between some
+codes in sckit-learn.
+
+5.)The 5th post   <row Id="33053" PostTypeId="1" AcceptedAnswerId="33075" CreationDate="2018-06-12T22:34:00.333" Score="43" 
+ViewCount="281109" Body="&lt;p&gt;I would like to compare...
+It was created when user was pointing out the differences between one 
+columnn of df with other df's.The columns were first and last names.
+
+And similar more....

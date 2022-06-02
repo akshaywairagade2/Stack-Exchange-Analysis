@@ -1,0 +1,1 @@
+Time required to run a program in ubuntu was 1.87405490875 seconds.

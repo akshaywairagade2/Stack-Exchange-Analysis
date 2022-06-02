@@ -1,0 +1,24 @@
+Mapper
+In the mapper we read the given field using the "re" library to find the view
+count of the post in given row and row index of the given row.
+We print the viewcount and rowindex in a list format for our simplicity.
+Here key is viewcount and value is rowindex.We can use that in either way also
+because we can extract data similarly in a reducer.
+
+Reducer
+In the reducer we first capture the first 10 outputs of mapper and keep the 
+size of list fixed to 10.Whenever new element enters we check if a smaller element
+than the current element:-
+i)if the element is present we replace it with the minimum element and update the 
+list.
+ii)if not found the list remains unchanged.
+
+We fixed the length 10 because if there is large amount of input the list may
+overflow.
+Time:-We calculated top 10 using both the methods i.e. list of fixed 10 elements
+and with all elements and observed that "10 element list took less time than other."
+
+Wrapper:-
+We can directly run the wrapper to get the output and time required in calculation.
+
+Result:-We finally printed the top 10 views result.
